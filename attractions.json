@@ -1,0 +1,59 @@
+{
+    "Tehran Grand Bazaar":{
+        "type": "historical",
+        "access": "Khayyam"
+    },
+    "Azadi Tower":{
+        "type": "historical",
+        "access": "Meydan-e Azadi"
+    },
+    "Golestan Palace":{
+        "type": "historical",
+        "access": "Panzdah-e Khordad"
+    },
+    "Park e Shahr":{
+        "type": "green",
+        "access": "Imam Khomeini"
+    },
+    "Museum of Ancient Iran":{
+        "type": "historical",
+        "access": "Imam Khomeini"
+    },
+    "Museum of the Islamic Era":{
+        "type": "historical",
+        "access": "Imam Khomeini"
+    },
+    "Holy Defense Museum":{
+        "type": "historical",
+        "access": "Shahid Haghani"
+    },
+    "Imamzadeh Saleh":{
+        "type": "historical",
+        "access": "Tajrish"
+    },
+    "Park e Taleghani":{
+        "type": "green",
+        "access": "Shahid Haghani"
+    },
+    "koorosh Mall":{
+        "type": "recreational",
+        "access": "Shahid Sattari"
+    },
+    "Bagh e Ketab":{
+        "type": "recreational",
+        "access": "Shahid Haghani"
+    },
+    "Milad Tower":{
+        "type": "recreational",
+        "access": "Milad Tower"
+    },
+    "Sharaf Al-Eslami Restaurant":{
+        "type": "restaurant",
+        "access": "Panzdah-e Khordad"
+    },
+    "Moslem Restaurant":{
+        "type": "restaurant",
+        "access": "Panzdah-e Khordad"
+    }
+    
+}
