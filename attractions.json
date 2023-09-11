@@ -1,59 +1,75 @@
 {
     "Tehran Grand Bazaar":{
         "type": "historical",
-        "access": "Khayyam"
+        "access": "Khayyam",
+        "line": 1
     },
     "Azadi Tower":{
         "type": "historical",
-        "access": "Meydan-e Azadi"
-    },
-    "Golestan Palace":{
-        "type": "historical",
-        "access": "Panzdah-e Khordad"
-    },
-    "Park e Shahr":{
-        "type": "green",
-        "access": "Imam Khomeini"
-    },
-    "Museum of Ancient Iran":{
-        "type": "historical",
-        "access": "Imam Khomeini"
-    },
-    "Museum of the Islamic Era":{
-        "type": "historical",
-        "access": "Imam Khomeini"
-    },
-    "Holy Defense Museum":{
-        "type": "historical",
-        "access": "Shahid Haghani"
-    },
-    "Imamzadeh Saleh":{
-        "type": "historical",
-        "access": "Tajrish"
-    },
-    "Park e Taleghani":{
-        "type": "green",
-        "access": "Shahid Haghani"
-    },
-    "koorosh Mall":{
-        "type": "recreational",
-        "access": "Shahid Sattari"
-    },
-    "Bagh e Ketab":{
-        "type": "recreational",
-        "access": "Shahid Haghani"
+        "access": "Meydan-e Azadi",
+        "line": 4
     },
     "Milad Tower":{
         "type": "recreational",
-        "access": "Milad Tower"
-    },
-    "Sharaf Al-Eslami Restaurant":{
-        "type": "restaurant",
-        "access": "Panzdah-e Khordad"
+        "access": "Milad Tower",
+        "line": 7
+    
     },
     "Moslem Restaurant":{
         "type": "restaurant",
-        "access": "Panzdah-e Khordad"
+        "access": "Panzdah-e Khordad",
+        "line": 1
+    },
+    "Golestan Palace":{
+        "type": "historical",
+        "access": "Panzdah-e Khordad",
+        "line": 1
+    },
+    "Park e Shahr":{
+        "type": "green",
+        "access": "Imam Khomeini",
+        "line": 1
+    },
+    "Museum of Ancient Iran":{
+        "type": "historical",
+        "access": "Imam Khomeini",
+        "line": 1
+    },
+    "Museum of the Islamic Era":{
+        "type": "historical",
+        "access": "Imam Khomeini",
+        "line": 1
+    },
+    "Holy Defense Museum":{
+        "type": "historical",
+        "access": "Shahid Haghani",
+        "line": 1
+    },
+    "Imamzadeh Saleh":{
+        "type": "historical",
+        "access": "Tajrish",
+        "line": 1
+    },
+    "Park e Taleghani":{
+        "type": "green",
+        "access": "Shahid Haghani",
+        "line": 1
+    },
+    "koorosh Mall":{
+        "type": "recreational",
+        "access": "Shahid Sattari",
+        "line": 6
+    },
+    "Bagh e Ketab":{
+        "type": "recreational",
+        "access": "Shahid Haghani",
+        "line": 1
+    },
+    
+    "Sharaf Al-Eslami Restaurant":{
+        "type": "restaurant",
+        "access": "Panzdah-e Khordad",
+        "line": 1
     }
     
 }
