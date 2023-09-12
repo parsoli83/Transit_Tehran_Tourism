@@ -88,7 +88,7 @@ def trip_metro(l):
                 final.append([l[i][0], l[i][1], 1])
             else:
                 final.append([l[i][0], l[i][1], cross])
-    final.append([l[i][0], l[i][1], 2])
+    final.append([l[-1][0], l[-1][1], 2])
     return final
     # 0 the same
     # 1 same line
@@ -159,6 +159,7 @@ def catalog_pdf(l):
 
 
 def catalog_ascii(l):
+    print(l)
     for i in range(len(l) - 1):
         print("########################################")
         print(f"{i+1}: {l[i][0]}")
@@ -177,6 +178,7 @@ def catalog_ascii(l):
                 break
             print(f"go to {l[i][2]} and change line")
             print(f"next station: {l[i+1][1]}")
+    return 0
 
 
 def catalog_text(l):
@@ -196,6 +198,7 @@ def catalog_text(l):
                 break
             print(f"go to {l[i][2]} and change line")
             print(f"next station: {l[i+1][1]}")
+    return 0
 
 
 if __name__ == "__main__":
