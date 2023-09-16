@@ -21,7 +21,7 @@ Transit_Tehran_Tourism is a travel guide that embraces the transit system. It ch
 
 to start, first run the following commands
 
-```
+```bash
 apt-get update
 git clone https://github.com/parsoli83/Transit_Tehran_Tourism
 cd Transit_Tehran_Tourism
@@ -31,7 +31,7 @@ pip install -r requirements.txt
 if you run Transit_Tehran_tourism without any arguments it would show you the default guide:
 
 ```
-/Transit_Tehran_Tourism$ python3 Transit_Tehran_Tourism.py
+$ ./Transit_Tehran_Tourism.py
 
 1: Tehran Grand Bazaar
 metro: Khayyam
@@ -49,7 +49,7 @@ end of the trip!
 you can specify the format in which you recieve the guide with `-g [text/ascii/pdf/gif]` and your prefered number of destinations with `-n number_of_destinations`:
 
 ```
-/Transit_Tehran_Tourism$ python3 Transit_Tehran_Tourism.py -g ascii -n 5
+$ ./Transit_Tehran_Tourism.py -g ascii -n 5
 ```
 and the result would be
 ```
@@ -79,13 +79,13 @@ next attraction is in the same station!
 ```
 or take a pdf as output with:
 ```
-/Transit_Tehran_Tourism$ python3 Transit_Tehran_Tourism.py -g ascii -n 5
+$ ./Transit_Tehran_Tourism.py -g ascii -n 5
 ```
 
 this program supports up to 12 destinations!
 
 ```
-/Transit_Tehran_Tourism$ python3 Transit_Tehran_Tourism.py -g ascii -n 12
+$ ./Transit_Tehran_Tourism.py -g ascii -n 12
 ```
 with the output being like this:
 ```
