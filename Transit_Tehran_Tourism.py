@@ -148,7 +148,7 @@ def catalog_pdf(l):
         else:
             if l[i + 1][2] == 2:
                 page.cell(txt=f"end of the trip!", align="C", center=True, ln=2)
-                page.image(f"{l[i][0]}.jpg", x=10, y=80, w=190)
+                page.image(f"images/{l[i][0]}.jpg", x=10, y=80, w=190)
                 break
             page.cell(
                 txt=f"go to {l[i][2]} and change line", align="C", center=True, ln=2
